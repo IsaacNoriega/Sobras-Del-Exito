@@ -7,9 +7,25 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+# Dependencies
 node_modules
+jspm_packages
+
+# Production build
 dist
 dist-ssr
+build
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Cache directories
+.cache
+.parcel-cache
+.nyc_output
+*.tsbuildinfo
 *.local
 
 # Editor directories and files
@@ -22,3 +38,10 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# OS generated files
+Thumbs.db
+
+# Vite logs
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*

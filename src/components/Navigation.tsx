@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Crown, Menu, X } from 'lucide-react';
+import {  Menu, X } from 'lucide-react';
 import '../styles/navigation.css';
 
 interface NavigationProps {

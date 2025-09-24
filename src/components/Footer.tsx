@@ -1,4 +1,4 @@
-import { Crown, Phone, Mail, MapPin, Instagram, Facebook, Twitter } from 'lucide-react';
+import { Phone, Mail, MapPin, Instagram, Facebook, Twitter } from 'lucide-react';
 import '../styles/footer.css';
 
 export default function Footer() {
