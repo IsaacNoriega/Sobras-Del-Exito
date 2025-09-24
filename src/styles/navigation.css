@@ -1,0 +1,209 @@
+@media (max-width: 600px) {
+    .navigation-title {
+        font-size: 1.1rem;
+        margin-left: 0.3rem;
+    }
+    .navigation-logo-img {
+        width: 1.6rem;
+        height: 1.6rem;
+    }
+    .navigation-container {
+        padding: 0 0.5rem;
+        height: 48px;
+    }
+}
+/* Logo en navigation */
+.navigation-logo-img {
+                    width: 3.1rem;
+                    height: 3.1rem;
+                    box-shadow:10px 10px 5px #232b3b;
+                    object-fit: contain;
+                    display: block;
+                    border-radius: 50%;
+                    margin: 0;
+                    box-shadow: none;
+}
+/* NAVIGATION - sticky, layout exacto, fondo dinámico */
+.navigation {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    transition: background-color 0.5s cubic-bezier(0.4,0,0.2,1), box-shadow 0.5s cubic-bezier(0.4,0,0.2,1);
+    background: #fff;
+    box-shadow: 0 1px 0 #e5e7eb;
+    backdrop-filter: blur(8px);
+        padding-left: 0.7rem;
+        padding-right: 0.7rem;
+}
+
+.navigation--hero {
+    background: rgba(21,28,39,0.92);
+    box-shadow: none;
+    color: #fff;
+}
+
+.navigation--default {
+    background: #fff;
+    box-shadow: 0 1px 0 #e5e7eb;
+    color: #232b3b;
+}
+
+.navigation-container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    display: flex;
+    align-items: center;
+    height: 72px;
+}
+
+.navigation-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.navigation-logo-group {
+    display: flex;
+    align-items: center;
+}
+
+.navigation-logo {
+    border-radius: 12px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navigation-logo svg {
+    color: #ffb700;
+    filter: drop-shadow(0 1px 2px rgba(0,0,0,0.08));
+}
+
+.navigation-title {
+    font-size: 1.7rem;
+    font-weight: 700;
+    color: #232b3b;
+    letter-spacing: -0.01em;
+    margin-left: 0.5rem;
+}
+.navigation-title-accent {
+    color: #3b4256;
+    font-weight: 700;
+}
+
+.navigation-links {
+    display: flex;
+    align-items: center;
+    gap: 2.5rem;
+}
+.navigation-link {
+    background: none;
+    border: none;
+    color: inherit;
+    font-size: 1.18rem;
+    font-weight: 500;
+    cursor: pointer;
+    .navigation {
+        padding-left: 0.2rem;
+        padding-right: 0.2rem;
+    }
+    padding: 0.15rem 0.5rem;
+    border-radius: 4px;
+    transition: background 0.2s, color 0.2s;
+    outline: none;
+}
+.navigation-link:hover,
+.navigation-link:focus {
+    background: rgba(218, 165, 32, 0.13);
+    color: #ffb700;
+}
+.navigation-link:focus-visible {
+    outline: 2px solid #ffb700;
+    outline-offset: 2px;
+}
+.navigation-cta {
+    background: #232b3b;
+    color: #fff;
+    font-weight: 700;
+    font-size: 1.13rem;
+    border: none;
+    border-radius: 10px;
+    padding: 0.9rem 2.2rem;
+    cursor: pointer;
+    transition: background 0.18s, color 0.18s;
+    margin-left: 1.5rem;
+    box-shadow: 0 2px 8px rgba(44, 62, 80, 0.06);
+}
+.navigation-cta:hover {
+    background: #ffb700;
+    color: #232b3b;
+}
+.navigation-mobile-btn,
+.navigation-mobile-menu {
+    display: none;
+}
+.navigation-mobile-btn:focus-visible {
+    outline: 2px solid #ffb700;
+    outline-offset: 2px;
+}
+
+@media (max-width: 900px) {
+    .navigation-links {
+        display: none;
+    }
+    .navigation-mobile-btn {
+        display: block;
+        background: none;
+        border: none;
+        color: #232b3b;
+        margin-left: 1rem;
+        cursor: pointer;
+        font-size: 2rem;
+        padding: 0.25rem;
+        border-radius: 6px;
+        transition: background 0.2s, color 0.2s;
+    }
+    .navigation-mobile-btn:hover {
+        background: rgba(218, 165, 32, 0.13);
+        color: #ffb700;
+    }
+    .navigation-mobile-menu {
+        display: block;
+        position: absolute;
+        top: 72px;
+        left: 0;
+        width: 100%;
+        background: #fff;
+        box-shadow: 0 2px 8px rgba(44, 62, 80, 0.08);
+        padding: 2rem 0;
+        z-index: 200;
+    }
+    .navigation-mobile-links {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+    .navigation-cta--mobile {
+        width: 80vw;
+        max-width: 320px;
+        margin-top: 1.5rem;
+    }
+    .navigation--hero .navigation-mobile-menu {
+        background: rgba(21,28,39,0.97);
+        color: #fff;
+    }
+}
+
+@media (max-width: 600px) {
+    .navigation-container {
+        padding: 0 1rem;
+        height: 60px;
+    }
+    .navigation-mobile-menu {
+        top: 60px;
+    }
+}

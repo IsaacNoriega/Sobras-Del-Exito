@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "name": "Sombra Natural",
+    "description": "Sombra de ojos en tonos tierra para un look natural.",
+    "price": 120,
+    "image": "/sombra-1.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Sombra Glam",
+    "description": "Sombra con brillos para un look de noche.",
+    "price": 150,
+    "image": "/sombra-2.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Sombra Mate",
+    "description": "Sombra mate de alta duración.",
+    "price": 130,
+    "image": "/sombra-3.jpg"
+  }
+]

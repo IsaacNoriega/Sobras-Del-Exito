@@ -1,0 +1,11 @@
+{
+  "title": "Sombras",
+  "subtitle": "del Éxito",
+  "description": "Descubre tu aroma distintivo con nuestra colección exclusiva de perfumes masculinos de las mejores marcas del mundo",
+  "badge": "Perfumes de Calidad Premium",
+  "features": [
+    { "icon": "Star", "label": "Fragancias Originales" },
+    { "icon": "Shield", "label": "Garantía de Calidad" },
+    { "icon": "Award", "label": "Marcas Premium" }
+  ]
+}

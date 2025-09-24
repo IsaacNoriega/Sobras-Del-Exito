@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Ana López",
+    "comment": "¡Me encantaron las sombras! Duran todo el día.",
+    "avatar": "/public/vite.svg",
+    "location": "CDMX",
+  "perfume": "Sombra Natural"
+  },
+  {
+    "id": 2,
+    "name": "María Pérez",
+    "comment": "Colores muy bonitos y fáciles de aplicar.",
+    "avatar": "/public/vite.svg",
+    "location": "Guadalajara",
+  "perfume": "Sombra Glam"
+  },
+  {
+    "id": 3,
+    "name": "Alejandro Rivera",
+    "comment": "La atención personalizada es increíble. Me ayudaron a elegir el perfume perfecto para mi estilo. 100% recomendado.",
+    "avatar": "/public/vite.svg",
+    "location": "Monterrey",
+  "perfume": "Sombra Mate"
+  }
+]

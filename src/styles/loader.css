@@ -1,0 +1,25 @@
+.app-loader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+  transition: opacity 0.4s cubic-bezier(.4,0,.2,1);
+}
+.app-loader-logo {
+  width: 90px;
+  height: 90px;
+  object-fit: contain;
+  border-radius: 50%;
+  box-shadow: 0 8px 32px 0 rgba(35, 43, 59, 0.25), 0 4px 16px 0 rgba(35, 43, 59, 0.15);
+  animation: loader-pop 1.2s cubic-bezier(.4,0,.2,1) infinite alternate;
+}
+@keyframes loader-pop {
+  0% { transform: scale(1); filter: brightness(1); }
+  100% { transform: scale(1.08); filter: brightness(1.15); }
+}
