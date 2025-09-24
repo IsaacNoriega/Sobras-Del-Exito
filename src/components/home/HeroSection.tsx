@@ -42,7 +42,7 @@ export default function HeroSection({ onContactClick, onProductsClick }: HeroSec
       <section className="hero-section">
         {/* Video de fondo */}
         <video className="hero-bg-video" autoPlay loop muted playsInline poster="/public/hero-fallback.jpg">
-          <source src="/public/hero-bg.mp4" type="video/mp4" />
+          <source src="/hero-bg.mp4" type="video/mp4" />
         </video>
         {/* Overlay para legibilidad */}
         <div className="hero-bg-overlay" />
